@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "jQuery/2.1.1": {
+        "type": "package"
+      },
+      "materialize/0.97.6": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.1.1"
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4495,6 +4504,84 @@
     }
   },
   "libraries": {
+    "jQuery/2.1.1": {
+      "sha512": "gSuOstbfPYEXBh38vEsIh/MODS1BhZt8VM6FIJCW1eQqRedFIaEFzBE7U7gcU1VBtCAJrG2wvrDYmNof2tZbBg==",
+      "type": "package",
+      "path": "jquery/2.1.1",
+      "files": [
+        ".signature.p7s",
+        "Content/Scripts/jquery-2.1.1-vsdoc.js",
+        "Content/Scripts/jquery-2.1.1.js",
+        "Content/Scripts/jquery-2.1.1.min.js",
+        "Content/Scripts/jquery-2.1.1.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-2.1.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.2.1.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "materialize/0.97.6": {
+      "sha512": "OkglpguooZOAF/gJPw+lPQsxz5fLaj3xPGd7gXcSPorugUiOYjD/zIUP+bJep95Xkll2CXtpLvfWS94Jvw9A9Q==",
+      "type": "package",
+      "path": "materialize/0.97.6",
+      "files": [
+        "README.txt",
+        "content/content/materialize/css/materialize.css",
+        "content/content/materialize/css/materialize.min.css",
+        "content/content/materialize/font/material-design-icons/LICENSE.txt",
+        "content/content/materialize/font/material-design-icons/Material-Design-Icons.eot",
+        "content/content/materialize/font/material-design-icons/Material-Design-Icons.svg",
+        "content/content/materialize/font/material-design-icons/Material-Design-Icons.ttf",
+        "content/content/materialize/font/material-design-icons/Material-Design-Icons.woff",
+        "content/content/materialize/font/material-design-icons/Material-Design-Icons.woff2",
+        "content/content/materialize/font/roboto/Roboto-Bold.eot",
+        "content/content/materialize/font/roboto/Roboto-Bold.ttf",
+        "content/content/materialize/font/roboto/Roboto-Bold.woff",
+        "content/content/materialize/font/roboto/Roboto-Bold.woff2",
+        "content/content/materialize/font/roboto/Roboto-Light.eot",
+        "content/content/materialize/font/roboto/Roboto-Light.ttf",
+        "content/content/materialize/font/roboto/Roboto-Light.woff",
+        "content/content/materialize/font/roboto/Roboto-Light.woff2",
+        "content/content/materialize/font/roboto/Roboto-Medium.eot",
+        "content/content/materialize/font/roboto/Roboto-Medium.ttf",
+        "content/content/materialize/font/roboto/Roboto-Medium.woff",
+        "content/content/materialize/font/roboto/Roboto-Medium.woff2",
+        "content/content/materialize/font/roboto/Roboto-Regular.eot",
+        "content/content/materialize/font/roboto/Roboto-Regular.ttf",
+        "content/content/materialize/font/roboto/Roboto-Regular.woff",
+        "content/content/materialize/font/roboto/Roboto-Regular.woff2",
+        "content/content/materialize/font/roboto/Roboto-Thin.eot",
+        "content/content/materialize/font/roboto/Roboto-Thin.ttf",
+        "content/content/materialize/font/roboto/Roboto-Thin.woff",
+        "content/content/materialize/font/roboto/Roboto-Thin.woff2",
+        "content/content/materialize/fonts/roboto/Roboto-Bold.eot",
+        "content/content/materialize/fonts/roboto/Roboto-Bold.ttf",
+        "content/content/materialize/fonts/roboto/Roboto-Bold.woff",
+        "content/content/materialize/fonts/roboto/Roboto-Bold.woff2",
+        "content/content/materialize/fonts/roboto/Roboto-Light.eot",
+        "content/content/materialize/fonts/roboto/Roboto-Light.ttf",
+        "content/content/materialize/fonts/roboto/Roboto-Light.woff",
+        "content/content/materialize/fonts/roboto/Roboto-Light.woff2",
+        "content/content/materialize/fonts/roboto/Roboto-Medium.eot",
+        "content/content/materialize/fonts/roboto/Roboto-Medium.ttf",
+        "content/content/materialize/fonts/roboto/Roboto-Medium.woff",
+        "content/content/materialize/fonts/roboto/Roboto-Medium.woff2",
+        "content/content/materialize/fonts/roboto/Roboto-Regular.eot",
+        "content/content/materialize/fonts/roboto/Roboto-Regular.ttf",
+        "content/content/materialize/fonts/roboto/Roboto-Regular.woff",
+        "content/content/materialize/fonts/roboto/Roboto-Regular.woff2",
+        "content/content/materialize/fonts/roboto/Roboto-Thin.eot",
+        "content/content/materialize/fonts/roboto/Roboto-Thin.ttf",
+        "content/content/materialize/fonts/roboto/Roboto-Thin.woff",
+        "content/content/materialize/fonts/roboto/Roboto-Thin.woff2",
+        "content/scripts/materialize/materialize.js",
+        "content/scripts/materialize/materialize.min.js",
+        "materialize.0.97.6.nupkg.sha512",
+        "materialize.nuspec"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -11822,7 +11909,8 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "materialize >= 0.97.6"
     ]
   },
   "packageFolders": {
@@ -11832,11 +11920,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
+      "projectUniqueName": "c:\\repos\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
       "projectName": "DatingApp.Api",
-      "projectPath": "C:\\repos\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
+      "projectPath": "c:\\repos\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
       "packagesPath": "C:\\Users\\camod\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\DatingApp\\DatingApp.Api\\obj\\",
+      "outputPath": "c:\\repos\\DatingApp\\DatingApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11885,6 +11973,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "materialize": {
+            "target": "Package",
+            "version": "[0.97.6, )"
           }
         },
         "imports": [

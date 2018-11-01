@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "92692d7cb31275cb17dd6897fde02a30f4b2a843"
+    "signature": "3ac99c43edd0382e9aadb2050a479213e586e336"
   },
   "compilationOptions": {
     "defines": [
@@ -27,13 +27,20 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.0",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "materialize": "0.97.6"
         },
         "runtime": {
           "DatingApp.Api.dll": {}
         },
         "compile": {
           "DatingApp.Api.dll": {}
+        }
+      },
+      "jQuery/2.1.1": {},
+      "materialize/0.97.6": {
+        "dependencies": {
+          "jQuery": "2.1.1"
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -3309,6 +3316,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jQuery/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gSuOstbfPYEXBh38vEsIh/MODS1BhZt8VM6FIJCW1eQqRedFIaEFzBE7U7gcU1VBtCAJrG2wvrDYmNof2tZbBg==",
+      "path": "jquery/2.1.1",
+      "hashPath": "jquery.2.1.1.nupkg.sha512"
+    },
+    "materialize/0.97.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OkglpguooZOAF/gJPw+lPQsxz5fLaj3xPGd7gXcSPorugUiOYjD/zIUP+bJep95Xkll2CXtpLvfWS94Jvw9A9Q==",
+      "path": "materialize/0.97.6",
+      "hashPath": "materialize.0.97.6.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
